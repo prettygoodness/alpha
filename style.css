@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    body{
+        background-color: hsl(30, 38%, 92%);
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 7px;
+        justify-content: center;
+        align-items: center;
+        margin: 20% auto;
+        width: 559px;
+        height: 452px auto;
+    }
+    
+    
+div{
+    .image-1{
+        width: 290px;
+        height: 450px;
+        margin-right: 5px;
+    }
+}
+    
+div{
+    p{
+        font-size: 14px; 
+        color: hsl(228, 12%, 48%);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500, 700;
+        margin-bottom: 10px;
+        margin-left: 20px;
+     }
+ 
+     h2{
+         color: hsl(212, 21%, 14%);
+         font-family: "Fraunces", serif;
+         font-weight: 700;
+         font-size: 35px;
+         margin-left: 20px;
+         margin-top: 1px;
+     }
+ 
+     span{
+         color: hsl(158, 36%, 37%);
+         font-family: "Fraunces", serif;
+         font-weight: 700;
+         font-size: 25px;
+         margin-top: 5px;
+         margin-left: 20px;
+     }
+ 
+     strike{
+     font-size: 14px;
+     color: hsl(228, 12%, 48%);
+     font-family: "Montserrat", sans-serif;
+     font-weight: 500, 700;
+     text-transform: uppercase;
+     margin-left: 15px;
+     }
+ 
+     button{
+         background-color: hsl(158, 36%, 37%);
+         font-family: "Montserrat", sans-serif;
+         font-weight: 600;
+         width: 210px;
+         height: 35px;
+         border-radius: 7px;
+         border-style: none;
+         margin-top: 10px;
+         margin-left: 20px;
+         color: hsl(0, 0%, 100%)
+     }
+     @media only screen and (max-width:768px){
+        .container{
+            flex-direction: column;
+            .image-1{
+            width: 555px;
+           height: 500px;
+            }
+            
+        }
+     }
+}
